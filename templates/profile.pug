@@ -1,0 +1,14 @@
+html
+    head
+    body
+        p
+        if user
+            | ID:#{user.id}
+            br
+            | Username: #{user.username}
+            br
+            | Name: #{ user.displayName }
+            br
+            if (user.emails)
+                p Email: #{ user.emails }
+        a(href='/logout') Log out

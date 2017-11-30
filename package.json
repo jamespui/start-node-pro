@@ -1,0 +1,46 @@
+{
+  "name": "start-node-pro",
+  "version": "1.0.0",
+  "description": "Start Node + webpack + es6 support etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "nodemon -e \".html|.css|.js\" --delay 2500ms index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colvefy/start-node-pro.git"
+  },
+  "keywords": [
+    "start",
+    "nodejs",
+    "expressjs",
+    "javascript"
+  ],
+  "author": "Colvefy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colvefy/start-node-pro/issues"
+  },
+  "homepage": "https://github.com/colvefy/start-node-pro#readme",
+  "dependencies": {
+    "angular": "^1.6.7",
+    "body-parser": "^1.18.2",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.83.0",
+    "serve-favicon": "^2.4.5",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-google": "^0.9.1",
+    "nodemon": "^1.12.1"
+  }
+}
